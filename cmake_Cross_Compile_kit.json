@@ -1,7 +1,7 @@
 [
   {
     "name": "CrossCompile_TempusSDK",
-    "toolchainFile": "~/toolchains/custom_toolchain.cmake",
+    "toolchainFile": "/home/somnath/toolchains/custom_toolchain.cmake",
     "isTrusted": true
   },
   {
