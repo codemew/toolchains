@@ -1,0 +1,15 @@
+[
+  {
+    "name": "CrossCompile_TempusSDK",
+    "toolchainFile": "/home/somnath/CMAKE_Cache/custom_toolchain.cmake",
+    "isTrusted": true
+  },
+  {
+    "name": "Ubuntu_Linux_x86_64-linux-gnu",
+    "compilers": {
+      "C": "/usr/bin/gcc",
+      "CXX": "/usr/bin/g++"
+    },
+    "isTrusted": true
+  }
+]
