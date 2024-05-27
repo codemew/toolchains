@@ -9,3 +9,11 @@ sleep 10
 # Close Visual Studio Code
 pkill code
 
+sed -i "s/somnath/$USER/g" ~/toolchains/cmake_Cross_Compile_kit.json
+
+echo "{
+    \"cmake.options.statusBarVisibility\": \"visible\",
+    \"cmake.additionalKits\": [
+        \"/home/$USER/toolchains/cmake_Cross_Compile_kit.json\"
+    ]
+}" > ~/.config/Code/User/settings.json
