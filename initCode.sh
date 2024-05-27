@@ -7,7 +7,7 @@ code .
 sleep 10
 
 # Close Visual Studio Code
-pkill code
+pkill -15 code
 
 sed -i "s/somnath/$USER/g" ~/toolchains/cmake_Cross_Compile_kit.json
 
